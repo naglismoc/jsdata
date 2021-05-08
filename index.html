@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="container"></div>
+<script>
+
+const data = [0,2,3];
+console.log(data[1]);
+// const dataObj ={0:7, 1:"dog"  };
+// console.log(dataObj[1]);
+
+const dataObj ={"species":"bird","pet":"parrot"};
+
+console.log(dataObj['pet']);
+console.log(dataObj.pet);
+console.log(Object.keys(dataObj) );
+
+
+let keys = Object.keys(dataObj);// objekto raktu masyvas
+
+for (let i = 0; i < keys.length; i++) {
+    console.log("i yra "+i);
+    let key = keys[i];
+    console.log(dataObj[key]);
+}
+
+
+
+ 
+
+const whoman = {
+    name:'Naglis',
+    surname:'Mockevicius',
+    age:'unknown', 
+    runDates:[1,5,8]
+}
+
+console.log(whoman.runDates);
+for (let i = 0; i < whoman.runDates.length; i++) {
+   console.log(whoman.runDates[i]);
+    
+}
+// console.log(whoman.name);
+// console.log(whoman.surname);
+
+
+</script>
+
+</body>
+</html>
