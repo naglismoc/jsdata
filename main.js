@@ -46,15 +46,15 @@ let pet = whoman.pet;
 
 
 
-console.log(whoman);
-console.log(whoman.pet);
+// console.log(whoman);
+// console.log(whoman.pet);
 pet = whoman.pet;
 keys = Object.keys(pet);
-console.log(keys);
+// console.log(keys);
 
 for (let i = 0; i < keys.length; i++) {
     key = keys[i];
-    console.log("i-"+i+" key-"+keys[i]+" value-"+pet[keys[i]]);
-    console.log("i-"+i+" key-"+key+" value-"+pet[key]);
+    // console.log("i-"+i+" key-"+keys[i]+" value-"+pet[keys[i]]);
+    // console.log("i-"+i+" key-"+key+" value-"+pet[key]);
     
 }
