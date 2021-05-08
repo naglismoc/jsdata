@@ -14,6 +14,8 @@
     height:50px;
     background-color: burlywood; 
     height:175px;
+    margin-bottom: 20px;  /* eilute uzkomentuojame jei naudojame NE PASKUTINI kodo varijanta  */
+    
 }
 
 .card > h2 {

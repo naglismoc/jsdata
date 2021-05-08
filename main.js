@@ -14,8 +14,8 @@ let keys = Object.keys(dataObj);// objekto raktu masyvas
 
 for (let i = 0; i < keys.length; i++) {
     let key = keys[i];
-    // console.log("i yra "+i+" key yra "+key+" value yra " + dataObj[key]);
-    // console.log(dataObj[key]);
+    console.log("i yra "+i+" key yra "+key+" value yra " + dataObj[key]);
+    console.log(dataObj[key]);
 }
 
 
