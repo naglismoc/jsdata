@@ -5,10 +5,24 @@
     width:80%;
     margin-left: 10%;
     margin-top:30px;
+    text-align: center;
 }
+
 
 
 .card{
     height:50px;
-    background-color: aqua; 
+    background-color: burlywood; 
+    height:175px;
+}
+
+.card > h2 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.card > img {
+    width:130px;
+    height:130px;
+    margin-left: calc((100% - 130px) / 2);
 }

@@ -6,7 +6,7 @@ const pokemonData = {
             "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
         },
         {
-            "name": "ivysaur",
+            
             "url": "https://pokeapi.co/api/v2/pokemon/2/",
             "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
        
