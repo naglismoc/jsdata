@@ -81,4 +81,5 @@
   }
 
   HTML += `</div>`;
+//   console.log(HTML);
   document.getElementById('container').innerHTML = HTML;
